@@ -3,6 +3,7 @@ Implementation of mutual exclusion based on Maekawa’salgorithm.
 ---
 
 Voting set:
+
 The voting set for every thread is selected by laying the thread ids in a 3x3 grid as follows. Each node/thread’s voting set was selected using all the ids present in its row and column. For example , the voting set for thread with id = 1, consists of {1,2,3,4,7} as shown below.
 
 | 1 | 2 | 3 |   
